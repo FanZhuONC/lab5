@@ -95,11 +95,6 @@ h2 {
     box-shadow: 0 8px 16px 0 rgba(223, 219, 219, 0.545);
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .container-card {
     display: flex;
     justify-content: space-around;
