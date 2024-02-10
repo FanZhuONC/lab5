@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    color: #FFE81F;
+    margin: 0;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    padding: 1rem 0;
+    margin: 0 100px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: #FFE81F;
+    text-decoration: none;
+    padding: 13px;
+}
+
+a:hover {
+    color: #ffe91f8e;
+    background-color: rgba(61, 61, 61, 0.527);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(223, 219, 219, 0.545);
+}
+
+a:active {
+    color: black;
+    background-color: #ffe91f91;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+h1 {
+    font-size: clamp(20px, 4vw, 35px);
+}
+
+h2 {
+    font-size: clamp(16px, 3vw, 20px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgb(56, 55, 55);
+    transition: 0.3em;
+    ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 220px;
+    height: 430px;
+    gap: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(223, 219, 219, 0.545);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container-intro {
+    display: grid;
+    /* place-items: center; */
+    grid-template-rows: repeat;
+    justify-content: center;
+    gap: 15px;
+}
+.container-h2{
+    display: grid;
+    place-items: center;
+}
+.container-audio {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items:left;
+}
+.container-audio p{
+    display: grid;
+    margin-left: 10px;
+}
+
+.container-title {
+    position: relative;
+    text-align: center;
+}
+
+.star-wars-logo {
+    width: 90px;
+    height: 55px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.container-footer {
+    position: absolute;
+    bottom: 100;
+    left: 40%;
+}
