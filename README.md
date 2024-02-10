@@ -33,10 +33,13 @@ Running the tests
 ----
 Code tested in MS edge and Google Chrome, both work fine.
 
+
 Built With
 ----
-Visual Studio Code
+* HTML5
+* CSS3
+* Visual Studio Code
 
 Support and contact details
 ----
-Fan Zhu - n01648910@humber.ca
+If you have any questions, please contact me: Fan Zhu - n01648910@humber.ca
