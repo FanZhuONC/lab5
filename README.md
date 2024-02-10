@@ -42,4 +42,4 @@ Built With
 
 Support and contact details
 ----
-If you have any questions, please contact me: Fan Zhu - n01648910@humber.ca
+If you have any questions, please leave message in Issues or contact me: Fan Zhu - n01648910@humber.ca
