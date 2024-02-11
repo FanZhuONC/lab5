@@ -30,12 +30,11 @@ Add CSS classes to header div, section div, footer div,
 2. Fluid typography and media queries to make sure website fit well in different size screen, min-width 1024 and max-width 767px: @media screen and (min-width: 1024px), @media screen and (max-width: 767px).</br>
 3. Position:fixed stying a "star wars" logo, set in website lower right corner</be>
 4. card:hover:box-shadow: 0 8px 16px 0 rgba(223, 219, 219, 0.545) </br>
-5. display grid for audio part;flexbox styling card, flex-direction as column.
+5. display grid for audio part;flexbox styling card, flex-direction as column.</br>
 
 Running the tests
 ----
 Code tested in MS edge and Google Chrome, both work fine.
-
 
 Built With
 ----
