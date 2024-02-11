@@ -27,7 +27,7 @@ Add CSS classes to header div, section div, footer div,
 * a:hover and a:active styling a tag elements for header</br>
 * Section:
 1. margin padding, display flex/grid, position:absolate, relative, fixed.</br>
-2. Fluid typography and media queries to make sure website fit well in different size screen, min-width 1024 and max-width 767px: @media screen and (min-width: 1024px), @media screen and (max-width: 767px).</br>
+2. Fluid typography and media queries to make sure website fit well in different size screen, min-width 1024 and max-width 767px: @media only screen and (min-width: 1024px), @media only screen and (max-width: 1023px) and (min-width: 768px),@media only screen and (max-width: 767px).</br>
 3. Position:fixed stying a "star wars" logo, set in website lower right corner</be>
 4. card:hover:box-shadow: 0 8px 16px 0 rgba(223, 219, 219, 0.545) </br>
 5. display grid for audio part;flexbox styling card, flex-direction as column.</br>
