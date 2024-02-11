@@ -6,7 +6,7 @@ body {
     font-size: 16px;
 }
 
-.header {
+   .header {
     padding: 1rem 0;
     margin: 0 100px;
 }
@@ -17,24 +17,23 @@ body {
     align-items: center;
 
 }
-
 .logo {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 4vw;
     font-weight: bold;
 }
 
 a {
     color: #FFE81F;
     text-decoration: none;
-    padding: 13px;
+    padding: 1.5vw;
 }
 
 a:hover {
     color: #ffe91f8e;
     background-color: rgba(136, 141, 143, 0.308);
-    border-radius: 20px;
+    border-radius: 5vw;
     box-shadow: 2px 2px 5px rgba(223, 219, 219, 0.545);
 }
 
@@ -46,12 +45,9 @@ a:active {
 ul {
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 2.5vw;
 }
 
-h1 {
-    font-size: 35px;
-}
 
 @media screen and (min-width: 1024px) {
     body {
@@ -63,7 +59,8 @@ h1 {
     body {
         font-size: 13px;
     }
-}
+    }
+    
 
 h1 {
     font-size: clamp(20px, 4vw, 35px);
@@ -95,6 +92,7 @@ h2 {
     box-shadow: 0 8px 16px 0 rgba(223, 219, 219, 0.545);
 }
 
+
 .container-card {
     display: flex;
     justify-content: space-around;
@@ -104,21 +102,23 @@ h2 {
 
 .container-intro {
     display: grid;
-    /* place-items: center; */
     grid-template-rows: repeat;
     justify-content: center;
     gap: 15px;
 }
-.container-h2{
+
+.container-h2 {
     display: grid;
     place-items: center;
 }
+
 .container-audio {
     display: grid;
     grid-template-columns: auto 1fr;
-    place-items:left;
+    place-items: left;
 }
-.container-audio p{
+
+.container-audio p {
     display: grid;
     margin-left: 10px;
 }
