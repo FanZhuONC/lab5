@@ -6,9 +6,9 @@ body {
     font-size: 16px;
 }
 
-   .header {
+.header {
     padding: 1rem 0;
-    margin: 0 100px;
+    margin: 0 5%;
 }
 
 .container-nav {
@@ -17,6 +17,7 @@ body {
     align-items: center;
 
 }
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -49,18 +50,38 @@ ul {
 }
 
 
-@media screen and (min-width: 1024px) {
-    body {
+@media only screen and (min-width: 1024px) {
+    header {
+        margin: 0 2%;
+    }
+
+    section {
         font-size: 17px;
+        margin: 0;
     }
 }
 
-@media screen and (max-width: 767px) {
-    body {
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    header {
+        margin: 0 1%;
+    }
+
+    section {
+        font-size: 15px;
+        margin: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        margin: 0 1%;
+    }
+
+    section {
         font-size: 13px;
     }
-    }
-    
+}
+
 
 h1 {
     font-size: clamp(20px, 4vw, 35px);
